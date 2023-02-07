@@ -1,0 +1,53 @@
+*
+{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+*
+{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: brown;
+  font-size: 2rem;
+}
+
+/* h1---Selector{
+  declarations---font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  declarations---color: brown;
+  declarations---font-size: 2rem;
+} */
+
+
+/* h1--
+{
+  selectors can target tag names,
+  id's, classes and many others...
+} */
+
+
+/* h1{
+  {declarations contain properties}
+  {and values}
+} */
+
+
+
+/* for example */
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+
+/* h1 is a selector in CSS 
+(it points to the HTML element you want to style: <p>).
+color is a property, and red is the property value
+text-align is a property, and center is the property value */
