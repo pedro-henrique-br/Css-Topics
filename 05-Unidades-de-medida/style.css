@@ -1,0 +1,128 @@
+*
+{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/*              Uma unidade de medida absoluta não é afetada(diminuida ou aumentada)
+                por não ser relativa com nenhum outro atributo da pagina, px, in, pt....                       */
+
+/*              Uma unidade Relativa ira mudar de acordo com o tamanho de outra propriedade
+                em, ex, ch, rem, vw, vh, vmin, vmax, %.                                                     */
+
+
+/*                   Rem(Tamanho da fonte relativa com o tamanho da fonte do navegador)                             */
+
+.rem {
+  font-size: 2rem;
+}
+
+
+
+/*                    Em (unidade relativa com o tamanho do texto de uma propriedade/declaração "pai")                                       */
+
+.em {
+  font-size: 50px;
+}
+
+p {
+  font-size: 2rem;
+  /* 2rem = 100px */
+}
+
+
+
+/*                      Pixels-px(unidade absoluta)                                        */
+
+#px {
+  font-size: 50px;
+  /* Não mudara idependente do tamanho da fonte do navegador */
+}
+
+
+
+/*                 Porcentagem-% (unidade que é relativa om o elemento parente)                                     */
+
+  .porcentagem {
+    font-size: 50px;
+  }
+  
+  p {
+    font-size: 100%;
+    /* 100% = 50px */
+  }
+  
+
+
+/*                  Vh (1% relativa com a altura total da tela do navegador viewPort)                                */
+
+.vh {
+    
+    background: #a3e900a1;
+    height: 10vh; /* 10% da altura da tela do navegador */
+    width: 20vh;
+}
+
+
+/*                  Vw (1% relativa com a largura total da tela do navegador viewPort)                                         */
+
+.vw {
+  background: #e27209cc;
+  width: 100vw; /* 100% da largura da tela do navegador */
+  height: 10vh;
+}
+
+
+/*                          Ch (Quebra de linha)                                       */
+
+.ch {
+  width: 5ch; /* uma quebra de linha (paragrafo) após atingir 5 caracteres) */
+}
+
+
+
+/*                   Vmax (valor maximo de altura e largura da tela do navergador viewPort)                                  */
+/*            Se a largura foi ajustada para 800px e a altura definida para 1080px, vmin seria igual a 8px e vmax 10.8px. */
+
+
+.vmax{ 
+  background: #ffc2c2;
+  width: 110vmax;
+  height: 3vmax;
+}
+
+
+
+/*                          Vmin (valor minimo de altura e largura da tela do navergador viewPort)                                   */
+                            
+.vmin {
+  background: #6e6e6e;
+  width: 200vmin;
+  height: 3vmax;
+}
+
+
+
+/*                          Auto (ira usar as propriedades default/automaticas do navegador)                                   */
+                            
+.auto {
+  font-family: auto;
+  font-size: auto;
+  background: auto;
+}
+
+
+
+/*                          Inherit (ira usar as propriedades default/automaticas do navegador)                                   */
+                            
+.inherit {
+  font-size: 50px;
+  background: #360197c2;
+  width: 50vw;
+}
+
+#p {
+  font-size: inherit;
+  background: inherit;
+}
