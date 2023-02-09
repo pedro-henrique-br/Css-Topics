@@ -114,7 +114,7 @@ p {
 
 
 
-/*                          Inherit (ira usar as propriedades default/automaticas do navegador)                                   */
+/*                          Inherit (ira usar as propriedades do elemento pai)                                   */
                             
 .inherit {
   font-size: 50px;
@@ -123,6 +123,6 @@ p {
 }
 
 #p {
-  font-size: inherit;
+  font-size: inherit; 
   background: inherit;
-}
+}   
