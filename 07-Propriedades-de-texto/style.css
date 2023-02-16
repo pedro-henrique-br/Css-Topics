@@ -1,0 +1,29 @@
+*
+{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+#hello-world1 {
+  letter-spacing: 1px;
+  text-align: center;
+  direction: rtl;
+  text-decoration::line-through;
+  word-spacing: 30px;
+}
+
+#hello-world2 {
+  letter-spacing: 0rem;
+  text-align: justify;
+  direction: rtl;
+  text-decoration:wavy;
+  text-decoration: overline;
+}
+
+#hello-world3 {
+  letter-spacing: 0rem;
+  text-align: right;
+  direction: ltr;
+  text-decoration: line-through;
+}

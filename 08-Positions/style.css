@@ -1,0 +1,38 @@
+*
+{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+/*                            static, estático ao valor padrão do elemento html */
+
+.static {
+  background: #85ff9a;
+  width: 100vw;
+  height: 10vh;
+}
+
+.fixed {
+
+}
+
+.relative {
+
+
+}
+
+
+.relative-2 {
+
+}
+
+.absolute-in {
+
+}
+
+
+
+
+.absolute {
+
+}
