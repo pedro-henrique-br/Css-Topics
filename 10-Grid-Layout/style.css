@@ -1,0 +1,22 @@
+*
+{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  background-color: rgb(17, 92, 92);
+  padding: 15px;
+  border: 1px solid red;
+  grid-template-columns: 70px 50% 30%;
+  grid-template-rows: 50%;
+  gap: 20px;
+}
+
+.container div {
+  background-color: aliceblue;
+  padding: 20px;
+  border: 1px solid blue;  
+}
