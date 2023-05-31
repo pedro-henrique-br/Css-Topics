@@ -1,0 +1,80 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(39, 39, 39);
+}
+
+.logo {
+  background-color: rgb(209, 209, 209);
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+header {
+  flex-wrap: wrap;
+  align-items: center;
+  display: flex;
+  background-color: rgb(29, 29, 29);
+  justify-content: space-between;
+  /* justify-content alinha os elementos no eixo principal "horizontalmente" */
+  padding: 10px;
+  width: 100%;
+  height: 70px;
+}
+
+
+.menu {
+  flex-wrap: wrap;
+  /* flex wrap e usado para a quebra de linha (ou não) para determinados elementos caberem na pagina  */
+  list-style: none;
+  display: flex;
+
+}
+
+.menu li a{
+  padding: 15px 30px 15px 30px;
+  margin-left: 4px;
+  display: block;
+  /* display block ocupa uma linha inteira por padrao desde que definida o tamanho e a largura  */
+  font-style: none;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+
+.menu a:hover {
+  display: block;
+  background-color: rgb(36, 36, 36);
+  border-radius: 10px;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  /* text align alinha os elementos no eixo perpendicular */
+  padding: 30px;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+
+.container div {
+  margin: 10px;
+  flex:1 1 350px ;
+}
+
+img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
