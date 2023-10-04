@@ -7,32 +7,50 @@
 /*                            static, estático ao valor padrão do elemento html */
 
 .static {
-  background: #85ff9a;
-  width: 100vw;
-  height: 10vh;
+  position: static;
+  width: 300px;
+  height: 100px;
+  background-color: rgb(102, 140, 211);
+  border: solid 2px rgb(0, 0, 0);
 }
 
 .fixed {
-
+  position: fixed;
+  width: 300px;
+  height: 100px;
+  background-color: rgb(162, 102, 211);
+  border: solid 2px rgb(0, 0, 0);
 }
 
 .relative {
-
-
+  position: relative;
+  width: 300px;
+  height: 100px;
+  background-color: rgb(2, 40, 112);
+  border: solid 2px rgb(0, 0, 0);
 }
 
-
 .relative-2 {
-
+  position: relative;
+  width: 300px;
+  height: 100px;
+  background-color: #ff00d4;
+  border: solid 2px rgb(0, 0, 0);
 }
 
 .absolute-in {
-
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  background-color: rgb(255, 0, 0);
+  border: solid 2px rgb(0, 0, 0);
 }
 
 
-
-
 .absolute {
-
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  background-color: rgb(255, 208, 0);
+  border: solid 2px rgb(0, 0, 0);
 }

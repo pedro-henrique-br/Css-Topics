@@ -1,0 +1,29 @@
+*
+{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* Espaçamento externo */
+
+.margin {
+  margin: 50px;
+
+  background: aquamarine;
+  border: solid 2px black;
+  width: 300px;
+  height: 200px;
+}
+
+
+/* Espaçamento interno */
+
+.padding {
+  padding: 50px;
+
+  background: aquamarine;
+  border: solid 2px black;
+  width: 300px;
+  height: 200px;
+}
