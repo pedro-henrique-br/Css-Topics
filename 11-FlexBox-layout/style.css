@@ -34,15 +34,15 @@ body {
 }
 
 .content {
-  margin: 20px 400px 0px;
   align-items: center;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap-reverse;
+  flex-direction: column-reverse;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .content img {
-  height: 400px;
-  width: 500px;
+  max-width: 300px;
+  flex-shrink: 1 100px;
+  margin: 10px 0 0;
+  
 }
